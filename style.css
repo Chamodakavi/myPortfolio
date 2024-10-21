@@ -1,0 +1,39 @@
+body::before{
+    display: block;
+    content: '';
+    height: 30px;
+}
+@font-face {
+    font-family: myfontitalic;
+    src: url(fonts/source-sans-pro.italic.ttf);
+}
+@font-face {
+    font-family: myfontregular;
+    src: url(fonts/source-sans-pro.regular.ttf);
+}
+@font-face {
+    font-family: myfontsemibold;
+    src: url(fonts/source-sans-pro.semibold.ttf);
+}
+
+.c-brand{
+    color: blue;
+    font-size: 2rem;
+    font-family: myfontsemibold;
+}
+.c-skill-section{
+    border-radius: 10px;
+    height: 300px;
+}
+.c-card-h2{
+    font-size: 1.25rem;
+    color: #7443FF;
+}
+.c-card-ul{
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+.c-line-height{
+    line-height: 2rem;
+}
