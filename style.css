@@ -21,9 +21,10 @@ body::before{
     font-size: 2rem;
     font-family: myfontsemibold;
 }
-.c-skill-section{
+.c-skills-container{
     border-radius: 10px;
     height: 300px;
+    background-color: #5f61d1;
 }
 .c-card-h2{
     font-size: 1.25rem;
@@ -36,4 +37,31 @@ body::before{
 }
 .c-line-height{
     line-height: 2rem;
+}
+.c-skill-row{
+    margin-top: -200px;
+}
+
+
+.c-project-item-description{
+    overflow: hidden;
+}
+/* .c-project-description {
+    height: 350px;
+}
+
+@media(min-width:1399px){
+    .c-project-description {
+        height: 410px;
+    }
+} */
+
+/* less than or equal to 990 pixels */
+@media(max-width:991px){
+    .c-project-item-description{
+        display: block;
+        margin: auto;
+        margin-top: 25px;
+        width: 94%;
+    }
 }
